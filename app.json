@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "exercicio-teste-unitarios",
-    "slug": "exercicio-teste-unitarios",
+    "name": "MACARI_CI_CD",
+    "slug": "macaricicd",
+    "owner": "macarifxs-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +14,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.macari.macaricicd",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.macari.macaricicd",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
